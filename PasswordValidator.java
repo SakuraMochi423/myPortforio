@@ -1,12 +1,14 @@
-package experiment;
+/*
+パスワードとして設定する文字列が、以下の３つの条件を満たしているかをチェックするプログラム。
+1.6文字以上
+2.英字と数字の両方を含む
+3.同じ文字を3つ以上連続で使用しない。
+*/
 
 public class PasswordValidator {
 
     public static void main(String[] args) {
-        //Scanner sc = new Scanner(System.in);
-
-        //System.out.println("パスワードを入力してください:");
-		//String password = sc.nextLine();
+	//コマンドライン引数より、パスワードを受け取る
         String password = args[0];
 
         if (isValidPassword(password)) {
@@ -14,8 +16,6 @@ public class PasswordValidator {
         } else {
             System.out.println("NG");
         }
-
-        //sc.close();
     }
 
     public static boolean isValidPassword(String password) {
