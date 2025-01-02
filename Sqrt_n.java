@@ -1,3 +1,7 @@
+/*
+指定された数値nの平方根をニュートン法で小数第5位まで求めるプログラム。
+*/
+
 package experiment;
 
 import java.text.DecimalFormat;
