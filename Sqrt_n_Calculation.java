@@ -7,9 +7,9 @@ import java.time.Instant;
 
 public class Sqrt_n_Calculation {
     public static void main(String[] args) {
-        // 精度の設定（100万桁）
+        // 精度の設定（100万桁）この数値を変えることで、求める平方根の精度を変更できます。
         int precision = 1000000;
-        //平方根を計算したい自然数n
+        //平方根を計算したい自然数nを設定。この値を変えることで、求める平方根の値を変更できます。
         int n = 7;
         // タイマー開始
         Instant start = Instant.now();
